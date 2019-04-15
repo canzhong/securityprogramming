@@ -1,14 +1,14 @@
 This assignment is designed to implement the RSA using big integer package.
 
-•It  is  required  to  use  Java  to  write  the  program. (You  may  chooseC/C++.)
-•For Java, the packages java.math.BigInteger and java.security.SecureRandomshould be used.(For  C/C++,  you  may  use  GMP,  the  GNU  Multiple  Precision  Arith-metic Library, for handling big numbers.  GMP manual can be found athttp://www.swox.com/gmp/. Your program should be compiled usinggcc/g++.)
-•Source code should be well commented.
-•The prime numberspandqshould beat least1536bits.
-•The  (absolute  value  of  the)  difference  of  two  primes  should  be  biggerthan 21000.
-•A demonstration of encrypting a message (big number) and decryptingthe ciphertext (big number) should be given.  You should check that yourmessage is coprime to the modulusN=pq.
-•Your program should also include the encryption and decryption timing.The encryption/decryption time should bebigger than zero.
-•The public key componentemust be65537.
-•Your program should be compilable using command linejavac.
+•It  is  required  to  use  Java  to  write  the  program. (You  may  chooseC/C++.)\n
+•For Java, the packages java.math.BigInteger and java.security.SecureRandomshould be used.(For  C/C++,  you  may  use  GMP,  the  GNU  Multiple  Precision  Arith-metic Library, for handling big numbers.  GMP manual can be found athttp://www.swox.com/gmp/. Your program should be compiled usinggcc/g++.)\n
+•Source code should be well commented.\n
+•The prime numbers p and q should be at least 1536bits.\n
+•The  (absolute  value  of  the)  difference  of  two  primes  should  be  bigger than 2^1000.\n
+•A demonstration of encrypting a message (big number) and decrypting the ciphertext (big number) should be given.  You should check that your message is coprime to the modulus N=pq.\n
+•Your program should also include the encryption and decryption timing.The encryption/decryption time should bebigger than zero.\n
+•The public key componentemust be 65537.\n
+•Your program should be compilable using command line javac.\n
 
 From Terminal, navigate to the directory that contains the RSA.java file
 run : javac RSA.java
@@ -25,6 +25,6 @@ Type any number and click enter.
   input a number and not a string.
 
 It then will ask you to go through the encryption, decryption phases until you are satisfied.
-It will not stop unless you input the special stop character '~', which will then cause it to stop and exit.
-This implementation does not check whether or not the first time you input is the termination character '~'. It will
+It will not stop unless you input the special stop character \'~\', which will then cause it to stop and exit.
+This implementation does not check whether or not the first time you input is the termination character \'~\'. It will
 instead continue to encrypt and decrypt the termination character as input.
