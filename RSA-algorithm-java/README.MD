@@ -1,14 +1,14 @@
 This assignment is designed to implement the RSA using big integer package.
 
-•It  is  required  to  use  Java  to  write  the  program. (You  may  chooseC/C++.)\n
-•For Java, the packages java.math.BigInteger and java.security.SecureRandomshould be used.(For  C/C++,  you  may  use  GMP,  the  GNU  Multiple  Precision  Arith-metic Library, for handling big numbers.  GMP manual can be found athttp://www.swox.com/gmp/. Your program should be compiled usinggcc/g++.)\n
-•Source code should be well commented.\n
-•The prime numbers p and q should be at least 1536bits.\n
-•The  (absolute  value  of  the)  difference  of  two  primes  should  be  bigger than 2^1000.\n
-•A demonstration of encrypting a message (big number) and decrypting the ciphertext (big number) should be given.  You should check that your message is coprime to the modulus N=pq.\n
-•Your program should also include the encryption and decryption timing.The encryption/decryption time should bebigger than zero.\n
-•The public key componentemust be 65537.\n
-•Your program should be compilable using command line javac.\n
+•It  is  required  to  use  Java  to  write  the  program. (You  may  chooseC/C++.)
+•For Java, the packages java.math.BigInteger and java.security.SecureRandomshould be used.(For  C/C++,  you  may  use  GMP,  the  GNU  Multiple  Precision  Arith-metic Library, for handling big numbers.  GMP manual can be found athttp://www.swox.com/gmp/. Your program should be compiled usinggcc/g++.)
+•Source code should be well commented.
+•The prime numbers p and q should be at least 1536bits.
+•The  (absolute  value  of  the)  difference  of  two  primes  should  be  bigger than 2^1000.
+•A demonstration of encrypting a message (big number) and decrypting the ciphertext (big number) should be given.  You should check that your message is coprime to the modulus N=pq.
+•Your program should also include the encryption and decryption timing.The encryption/decryption time should bebigger than zero.
+•The public key componentemust be 65537.
+•Your program should be compilable using command line javac.
 
 From Terminal, navigate to the directory that contains the RSA.java file
 run : javac RSA.java
