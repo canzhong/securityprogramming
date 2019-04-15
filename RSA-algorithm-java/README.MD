@@ -25,6 +25,6 @@ Type any number and click enter.
   input a number and not a string.
 
 It then will ask you to go through the encryption, decryption phases until you are satisfied.
-It will not stop unless you input the special stop character \'~\', which will then cause it to stop and exit.
-This implementation does not check whether or not the first time you input is the termination character \'~\'. It will
+It will not stop unless you input the special stop character ~, which will then cause it to stop and exit.
+This implementation does not check whether or not the first time you input is the termination character ~. It will
 instead continue to encrypt and decrypt the termination character as input.
